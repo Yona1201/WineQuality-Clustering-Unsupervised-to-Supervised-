@@ -1,13 +1,13 @@
 # WineQuality-Clustering-Unsupervised-to-Supervised
 
-Proyek ini menggunakan pendekatan dua tahap untuk memprediksi kualitas anggur dengan menggabungkan pembelajaran tanpa pengawasan (clustering) dan pengawasan (klasifikasi).
+Proyek ini menggunakan pendekatan dua tahap untuk memprediksi kualitas anggur dengan menggabungkan Unsupervised Learning (clustering) dan Supervised Learning  (klasifikasi).
 
 ## Deskripsi Singkat
-1. **Clustering (Pembelajaran Tanpa Pengawasan)**:
+1. **Clustering (Unsupervised Learning)**:
    - **KMeans Clustering**: Dataset dikelompokkan menggunakan KMeans untuk membuat label kualitas.
    - **Pemilihan Jumlah Cluster**: Menggunakan Metode Elbow dan Silhouette Score.
 
-2. **Klasifikasi (Pembelajaran Terawasi)**:
+2. **Klasifikasi (Supervised Learning)**:
    - **Random Forest Classifier**: Cluster yang terbentuk digunakan sebagai label untuk melatih model Random Forest, memprediksi kualitas anggur berdasarkan fitur fisikokimia.
 
 ## Dataset
