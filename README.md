@@ -1,7 +1,3 @@
-Berikut adalah README.md singkat dalam bahasa Indonesia:
-
----
-
 # WineQuality-Clustering-Unsupervised-to-Supervised
 
 Proyek ini menggunakan pendekatan dua tahap untuk memprediksi kualitas anggur dengan menggabungkan pembelajaran tanpa pengawasan (clustering) dan pengawasan (klasifikasi).
@@ -29,4 +25,3 @@ Dataset dapat diunduh dari Kaggle: [Wine Dataset for Clustering](https://www.kag
 ## Kesimpulan
 Pendekatan ini memungkinkan klasifikasi kualitas anggur saat data label awal tidak tersedia, menunjukkan potensi kombinasi pembelajaran tanpa pengawasan dan terawasi.
 
----
